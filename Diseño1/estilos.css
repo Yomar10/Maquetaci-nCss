@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+}
+.logo{
+    color: white;
+    margin-left: 10px;
+}
+.imagenes{
+    background-image: url("fotografo-paisajes.jpg");
+    min-height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.cont-text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    
+}
+.cont-text h1{
+    padding: 10px;
+}
+.cont-text p{
+    text-align: center;
+}
