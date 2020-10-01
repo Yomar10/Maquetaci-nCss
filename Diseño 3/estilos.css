@@ -44,11 +44,6 @@ body{
     padding: 10px;
     text-align: center;
 }
-/* @media (min-width: 780px) { 
-    body{
-        background-color: black;
-    }
-} */
 @media screen and (max-width: 900px) {
     .grid-container{
         grid-template-areas: 'header  header header'
